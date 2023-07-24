@@ -1,0 +1,53 @@
+* {
+    color: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 8px 64px;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    background-color: darkblue;
+}
+
+.header {
+    background-color: darkred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-main-stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 256px;
+    padding: 16px;
+}
+
+.top-left {
+    max-width: 600px;
+    flex-grow: 0;
+}
+
+.main-text {
+    font-size: 40px;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
