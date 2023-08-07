@@ -9,10 +9,18 @@ body {
 
 ul {
     list-style: none;
-    margin: 8px 64px;
-    padding: 0;
     display: flex;
+    padding: 0;
+}
+
+.links {
+    margin: 8px 64px;
     gap: 16px;
+}
+
+.members {
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 a {
@@ -35,7 +43,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 256px;
-    padding: 16px;
+    padding: 128px;
 }
 
 .top-left {
@@ -44,10 +52,45 @@ a {
 }
 
 .main-text {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .buttons {
     display: flex;
     gap: 16px;
+}
+
+.meet-the-team {
+    background-color: purple;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 128px;
+}
+
+.meet-the-team .section-title {
+    font-weight: 900;
+    font-size: 28px;
+    align-self: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.quote-by {
+    align-self: flex-end;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 0px;
+    background-color: black;
+    text-align: center;
 }
