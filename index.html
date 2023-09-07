@@ -7,58 +7,72 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <div class="top">
-        <div class="header">
-            Logo
-            <ul class="links">
-                <li>link 1</li>
-                <li>link 2</li>
-                <li>link 3</li>
-            </ul>
-        </div>
-        <div class="top-main-stuff">
-            <div class="top-left">
-                <div class="main-text">Join the Revolutionary Army Today</div>
-                <p>We will take down the world government and the Celestial Dragons to bring fourth the dawn of the new world!</p>
+    <div id="header" class="flex-row text">
+        <img id="logo" src="images/logo.png" alt="logo">
+        <ul class="links small-gap">
+            <li><a href="https://myanimelist.net/manga/1706/JoJo_no_Kimyou_na_Bouken_Part_7__Steel_Ball_Run">MAL</a></li>
+            <li><a href="https://www.amazon.com/Steel-Ball-Run-Japanese-Vol-1/dp/408873601X">Buy Manga</a></li>
+            <li><a href="https://twitter.com/araki_jojo">Twitter</a></li>
+        </ul>
+    </div>
+    <div id="top" class="flex-row big-gap">
+        <div>
+            <div class="sub-container-big">
+                <div class="section-title">Enter Steel Ball Run</div>
+                <p class="text">The Steel Ball Run race will start on September 25th, 1890, at 10AM on the pacific San Diego beach! 
+                    The goal will be New York, making it mankind's first North American cross-country horseback race!
+                    The distance is roughly 6000km! 
+                    The champion will receive 50 million dollars, which will be deposited into the individual's east and west bank accounts!
+                </p>
                 <div class="buttons">
-                    <button>Join Now</button> <button>Subscribe to our <br> Counterpropaganda Newsletter</button>
+                    <button class="text">Enter Now</button> 
+                    <button class="text">Buy Tickets</button>
                 </div>
             </div>
-            <img alt="Some image">
+        </div>
+        <img id="side-img" src="images/map.jpg" alt="Some image">
+    </div>
+
+    <div id="contestants">
+        <div class="section-title-centered">Meet Our Featured Contestants</div>
+        <div class="flex-row medium-gap">
+            <div class="contestant">
+                <img class="contestant" src="images/johnny.png" alt="Johnny">
+                <div class="centered-text"> Johnny Joestar </div>
+            </div>
+            <div class="contestant">
+                <img class="contestant" src="images/gyro.jpg" alt="Gyro">
+                <div class="centered-text"> Gyro Zeppeli </div>
+            </div>
+            <div class="contestant">
+                <img class="contestant" src="images/Diego_Brando_Infobox_Manga.png" alt="Dio">
+                <div class="centered-text"> Diego Brando </div>
+            </div>
+            <div class="contestant">
+                <img class="contestant" src="images/Sandman_Infobox_Manga.png" alt="Sandman">
+                <div class="centered-text"> Sandman </div>
+            </div>
         </div>
     </div>
 
-    <div class="meet-the-team">
-        <div class="section-title">Meet Our Members</div>
-        <div>
-            <ul class="members">
-                <li>Leader: Monkey D. Dragon</li>
-                <li>Chief of staff: Sabo</li>
-                <li>G Army Commander: Emporio Ivankov</li>
-                <li>General member: Koala</li>
-            </ul>
+    <div id="disclaimer-section" class="centered-text">
+        <div class="disclaimer sub-container-small">
+            President Funny Valentine has <strong>ZERO</strong> involvement in this race. The purpose of this race has <strong>NOTHING</strong> 
+            to do with collecting the scattered corpse pieces of a saint who lived 2000 years ago. 
         </div>
     </div>
 
-    <div class="quote-section">
-        <div>
-            There can be no happiness in a world where those deemed unnecessary are weeded out and eliminated...!! One day, I will change this world... you mark my words.
-        </div>
-        <div class="quote-by">
-            - Monkey D. Dragon while at Goa Kingdom 12 years ago
+    <div id="contact-us" class="flex-row">
+        <div class="contact-us-sub-container flex-row medium-gap">
+            <div class="sub-container-small text">
+                ...However, if you do have any information on these scattered corpse pieces, please contact President Funny Valentine.
+            </div>
+            <button class="text">Contact Us</button>
         </div>
     </div>
 
-    <div class="call-to-action">
-        <div class="left-side">
-            Call to action! It's time!
-            Join us now to say "NO!" to those who look down on us!
-        </div>
-        <button>Join Us</button>
-    </div>
-
-    <div id="footer">
-        Copyright c Revolutionary Army 
-    </div>
+    <footer id="footer" class="text">
+        Copyright © SBR 1890 (this is fake)
+    </footer>
 </body>
 </html>
