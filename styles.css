@@ -10,6 +10,7 @@ body {
 ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0;
 }
@@ -27,6 +28,7 @@ button {
 #header {
     background-color: #443736;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -40,6 +42,7 @@ button {
 .links {
     margin: 8px 64px;
 }
+
 /* **************************************************** */
 
 /* Section 1 */
@@ -51,14 +54,17 @@ button {
 
 .buttons {
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
 #side-img {
     max-width: 700px;
+    min-width: 500px;
     padding: 0;
     margin: 0;
 }
+
 /* **************************************************** */
 
 /* Section 2 */
@@ -70,17 +76,20 @@ button {
 .contestant {
     max-width: 300px;
 }
+
 /* **************************************************** */
 
 /* Section 3 */
 #disclaimer-section {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #9b6f49;
     height: 300px;
 }
+
 /* **************************************************** */
 
 /* Section 4 */
@@ -94,6 +103,7 @@ button {
     padding: 64px;
     border-radius: 20px;
 }
+
 /* **************************************************** */
 
 /* Footer */
@@ -105,18 +115,21 @@ button {
     background-color: #443736;
     text-align: center;
 }
+
 /* **************************************************** */
 
 /* Common attributes */
 /* Flex stuff */
 .flex-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 .flex-col {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     padding: 8px;
@@ -141,6 +154,7 @@ button {
 .small-gap {
     gap: 48px;
 }
+
 /* **************************************************** */
 
 /* Text */
@@ -154,7 +168,7 @@ button {
     text-align: center;
 }
 
-.section-title, 
+.section-title,
 .section-title-centered {
     font-size: 50px;
     font-family: "Lucida Handwriting", "Times New Roman", sans-serif;
@@ -164,6 +178,7 @@ button {
 .section-title-centered {
     text-align: center;
 }
+
 /* **************************************************** */
 
 /* Containers */
@@ -175,5 +190,6 @@ button {
     max-width: 1200px;
     /* flex-grow: 0; */
 }
+
 /* **************************************************** */
 /* **************************************************** */
